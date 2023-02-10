@@ -28,6 +28,7 @@ Self calling anonymus functo to run when the js is loaded into the page
         const shortMessage = document.getElementById("shortMessage")
         const form = document.getElementById("myForm")
 
+
         // add a onsubmite event listner
         form.onsubmit = (e)=>{
             // prevent form from refreshing the page
