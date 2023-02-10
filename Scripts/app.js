@@ -44,7 +44,11 @@ Self calling anonymus functo to run when the js is loaded into the page
 
             // set timeput to wait 3 seconds to redirect the page
             setTimeout(() => {
-               window.location.pathname = '/index.html'
+                let pathName = window.location.pathname.split('/')
+                pathName.pop()
+                pathName.push('index.html')
+
+                window.location.pathname = pathName.join('/') 
             }, 3000);
             return false;
         }
