@@ -16,9 +16,9 @@ Self calling anonymus functo to run when the js is loaded into the page
     function ContactUsForm(){
         // get all the input elemtnts
         document.getElementById("contactName").innerText = 'Name:'
-        document.getElementById("contactNumber").innerText = 'Contact Number'
+        document.getElementById("contactNumberLabel").innerText = 'Contact Number'
         document.getElementById("contactEmail").innerText = 'Email Addresss:'
-        document.getElementById("shortMessage").innerText  = 'Short Message: '
+        document.getElementById("contactshortMessage").innerText  = 'Short Message: '
         document.getElementById("submitbutton").innerText = 'Submit'
 
         
